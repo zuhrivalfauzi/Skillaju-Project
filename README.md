@@ -72,6 +72,7 @@ Initial data exploration revealed two related problems:
 ## 3. Cloud Environment & Tech Stack
 
 **Tools:** BigQuery SQL (Sandbox, free tier) · Python (Pandas, Matplotlib) · Google Colab · Looker Studio
+
 **Connection:** All layers connect directly to BigQuery — no data is exported to local files between stages.
 
 ---
