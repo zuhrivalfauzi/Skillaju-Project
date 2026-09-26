@@ -291,7 +291,7 @@ Designed as a single narrative arc — KPI overview at top, then the two objecti
 
 *Dataset: [SkillAju: Marketplace Kelas Online — Ngulik Data](https://ngulikdata.com/datasets/skillaju)*
 
-*SQL: BigQuery Sandbox (project: `skillaju-project`, dataset: `skillaju_raw`)*
+*SQL: [SQL for Data Cleaning & Feature Engineering](https://github.com/zuhrivalfauzi/Skillaju-Project/blob/main/sql-queries.sql)*
 
 *EDA: [Python for EDA — Google Colab](https://colab.research.google.com/drive/1-Kmnu-q62FRIixRHjjHAkr423W4D2rVO?usp=sharing)*
 
