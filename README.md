@@ -154,7 +154,7 @@ EDA conducted in Google Colab with direct BigQuery connection. Notebook: [Python
 
 ### Finding 1 — The Bottleneck Is Learning, Not Signing Up
 
-<img width="885" height="484" alt="image" src="https://github.com/user-attachments/assets/70419985-1bdd-448d-891d-db40a527101b" />
+<img width="527" height="336" alt="image" src="https://github.com/user-attachments/assets/14a5b78d-6c53-43d9-8f6e-072fedd1cac8" />
 
 Across ~10,380 enrollments, 97% of students successfully start a course (`completion_pct > 0`), but only **~31% ever reach 100% completion**. This pattern is **nearly identical** across all three plan types (free 30.9%, basic 30.3%, pro 30.2%) and across every acquisition channel (28.6%–31.6%).
 
@@ -163,6 +163,8 @@ Across ~10,380 enrollments, 97% of students successfully start a course (`comple
 ---
 
 ### Finding 2 — Course Category Is Not the Main Differentiator
+
+<img width="663" height="313" alt="image" src="https://github.com/user-attachments/assets/9efab96e-3e34-4dac-93d0-d1e0b2135669" />
 
 | Category | Completion % | Pass Rate % |
 |---|---|---|
@@ -179,6 +181,8 @@ Across ~10,380 enrollments, 97% of students successfully start a course (`comple
 
 ### Finding 3 — Advanced Courses Have the Highest Completion (Counter-Intuitive)
 
+<img width="656" height="357" alt="image" src="https://github.com/user-attachments/assets/1a630be8-7cd3-4960-a32c-654417ad9861" />
+
 | Level | Completion % | Pass Rate % |
 |---|---|---|
 | Intermediate | 31.1 (lowest) | 59.6 |
@@ -191,6 +195,8 @@ Across ~10,380 enrollments, 97% of students successfully start a course (`comple
 
 ### Finding 4 — Instructor Is the Strongest Differentiator, and Rating Is Misleading
 
+<img width="438" height="273" alt="image" src="https://github.com/user-attachments/assets/177dfc37-ac53-40d1-be3d-52ad287dc329" />
+
 Instructor-level completion rates range from **27.9% to 36.5%** (a ~8.6-point spread — far wider than the category or level spread). The correlation between instructor rating and completion rate is **negative (-0.17)**: instructors with the highest ratings (4.8–5.0) tend to cluster at the *lowest* completion rates.
 
 **The insight:** Course rating (often collected early, before students disengage) is not a reliable proxy for whether an instructor actually gets students to finish. The platform would benefit from tracking completion-linked instructor quality metrics, not rating alone.
@@ -201,7 +207,10 @@ Instructor-level completion rates range from **27.9% to 36.5%** (a ~8.6-point sp
 
 Designed as a single narrative arc — KPI overview at top, then the two objective storylines below it.
 
-🔗 [Open Dashboard in Looker Studio →]([ISI_LINK_LOOKER_STUDIO_DI_SINI])
+🔗 [Open Dashboard in Looker Studio →](https://datastudio.google.com/reporting/15a755ed-e6bf-4db1-a9d9-304479e9f9df)
+
+<img width="731" height="547" alt="image" src="https://github.com/user-attachments/assets/525cd0b8-b384-4b7d-8d72-4d2ee4135e41" />
+
 
 **Layout:**
 - **Top row** — 6 KPI scorecards: Total Students, Active Courses, Total Enrollments, Completion Rate, Avg Quiz Score, Certificates Issued
@@ -280,10 +289,10 @@ Designed as a single narrative arc — KPI overview at top, then the two objecti
 
 ---
 
-*Dataset: [SkillAju: Marketplace Kelas Online — Ngulik Data](https://ngulikdata.com/)*
+*Dataset: [SkillAju: Marketplace Kelas Online — Ngulik Data](https://ngulikdata.com/datasets/skillaju)*
 
 *SQL: BigQuery Sandbox (project: `skillaju-project`, dataset: `skillaju_raw`)*
 
-*EDA: [Python for EDA — Google Colab]([ISI_LINK_COLAB_DI_SINI])*
+*EDA: [Python for EDA — Google Colab](https://colab.research.google.com/drive/1-Kmnu-q62FRIixRHjjHAkr423W4D2rVO?usp=sharing)*
 
-*Dashboard: [Looker Studio]([ISI_LINK_LOOKER_STUDIO_DI_SINI])*
+*Dashboard: [Looker Studio](https://datastudio.google.com/reporting/15a755ed-e6bf-4db1-a9d9-304479e9f9df)*
